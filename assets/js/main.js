@@ -141,12 +141,3 @@ function setTheme(mode){
 
 	localStorage.setItem('theme', mode)
 }
-
-
-
-document.addEventListener('DOMContentLoaded',function(){
-    daisyjs(document.getElementById('max-c'),{
-        dotColor: '#fff',
-        lineColor: '#f2f'
-    })
-})
