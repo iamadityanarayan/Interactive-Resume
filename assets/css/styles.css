@@ -455,8 +455,8 @@ color: var(--second-color);
 text-align: center;
 font-weight: var(--font-semi);
 padding: 2rem 0;
-padding-left: 3rem;
-padding-right: 3rem;
+padding-left: 1rem;
+padding-right: 1rem;
 }
 
 .contact__map iframe{
@@ -465,7 +465,7 @@ padding-right: 3rem;
     margin-bottom: 5rem;
 
     width: 100%;
-    height: 100vh;
+    height: 50vh;
 }
 .contact__map iframe:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -630,14 +630,21 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(2,1fr);
 column-gap: 2rem;
 }
-.contact__form{
-width: 360px;
-}
+/* ===== CONTACT =====*/
+.contact{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    }
+
 .contact__container{
 justify-items: center;
 }
 .contact__icon{
     font-size: 4rem;
+    }
+
+    .contact__map iframe{
+        height: 100vh;
     }
 }
 
@@ -702,12 +709,12 @@ padding: .4rem;
 
 
 ::-webkit-scrollbar{
-width: 12px;
+width: 10px;
 background-color: transparent;
 }
 ::-webkit-scrollbar-thumb{
-background: rgba(0,0,0,.55);
-border-radius: 10px;
+background: rgba(21, 93, 201, 0.555);
+border-radius: 4px;
 }
 
 
