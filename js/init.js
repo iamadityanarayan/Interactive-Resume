@@ -3,7 +3,7 @@
 $(document).ready(function() {
 						   
 	$(".countdown").countdown({
-				date: "17 Oct 2021 18:30:00",
+				date: "17 Dec 2021 18:30:00",
 				format: "on"
 			},
 			
