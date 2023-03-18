@@ -1,0 +1,23 @@
+{
+  "name": "interactive-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamadityanarayan/Interactive-Resume.git"
+  },
+  "author": "Adityanarayan Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamadityanarayan/Interactive-Resume/issues"
+  },
+  "homepage": "https://github.com/iamadityanarayan/Interactive-Resume#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "material-icons": "^1.13.2"
+  }
+}
