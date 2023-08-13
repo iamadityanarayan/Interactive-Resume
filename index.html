@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link id="theme-style" rel="stylesheet" href="">
+
+        <title>Interactive Resume</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Aditya</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Adityanarayan</span><br> Full Stack Developer</h1>
+
+                    <!-- <a href="#" class="button">Contact</a> -->
+                </div>
+
+                <div class="left-column">
+					<h5>Personalize Theme</h5>
+
+					<div id="theme-options-wrapper">
+						<div data-mode="light" id="light-mode" class="theme-dot"></div>
+						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+					</div>
+                  
+					<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
+				</div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                </div>
+                <div class="home__img">    
+                    <img src="assets/img/profile.jpg">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/aboutme.svg" alt="">
+                    </div>
+                    
+                    <div>
+                        <!-- <h2 class="about__subtitle">I'm Adityanarayan Tiwari</h2> -->
+                        <p class="about__text">
+                            I am a Full Stack developer and have a 6-month experience as a User Interface Developer,
+                            who loves UI effects, animation, and dynamic user experience.
+                            <p class="about__text pt-3">
+                                Fan of English & Hindi TV series,Movie.
+                                Interested more in the entire frontend spectrum and working on ambitious projects with positive people.
+                            </p>
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">It's my personal belief that rating one's personal skillset is not only unprofessional but highly unethical. 
+                            However, to help you understand my expertise in the various technologies,I have segregated my skills in two part frontend technologies and backend technologies 
+                        </p>
+                        <div class="skills__data__container">
+                            <div class="skills__backend">
+                                <h2 class="skills__title">Back-end & Other Technologies</h2>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <!-- <i class="fab fa-java skills__icon"></i> -->
+                                        <span class="skills__name pad-1">Core Java</span>
+                                    </div>
+                                    <div class="skills__bar skills__java">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">80</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <!-- <i class="fab fa-java skills__icon" style="color: #e9363e;"></i> -->
+                                        <span class="skills__name pad-1">JSP</span>
+                                    </div>
+                                    <div class="skills__bar skills__adjava">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">65</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span class="skills__name pad-1">Servlet</span>
+                                    </div>
+                                    <div class="skills__bar skills__servlet">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">50</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span class="skills__name pad-1">Spring Boot</span>
+                                    </div>
+                                    <div class="skills__bar skills__spring">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">50</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span class="skills__name pad-1">Data Structure & Algorithms</span>
+                                    </div>
+                                    <div class="skills__bar skills__dsa">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">75</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span class="skills__name pad-1">SQL</span>
+                                    </div>
+                                    <div class="skills__bar skills__sql">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">80</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span class="skills__name pad-1">PL/SQL</span>
+                                    </div>
+                                    <div class="skills__bar skills__plsql">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">50</span>%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__frontend">
+                                <h2 class="skills__title">Front-end Technologies</h2>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-html5 skills__icon' style="color: #f27233;"></i>
+                                        <span class="skills__name">HTML</span>
+                                    </div>
+                                    <div class="skills__bar skills__html">
+        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">95</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-css3 skills__icon'></i>
+                                        <span class="skills__name">CSS</span>
+                                    </div>
+                                    <div class="skills__bar skills__css">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">85</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-bootstrap skills__icon' style='color:#8d40f1'></i>
+                                        <span class="skills__name">Bootstrap</span>
+                                    </div>
+                                    <div class="skills__bar skills__bs">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">85</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-sass skills__icon' style='color:#d340f1'></i>
+                                        <span class="skills__name">SASS</span>
+                                    </div>
+                                    <div class="skills__bar skills__sass">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">55</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-javascript skills__icon' style='color:#f6d833'  ></i>
+                                        <span class="skills__name">JavaScript</span>
+                                    </div>
+                                    <div class="skills__bar skills__js">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">75</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-jquery skills__icon' style='color:#40dbf8'  ></i>
+                                        <span class="skills__name">jQuery</span>
+                                    </div>
+                                    <div class="skills__bar skills__jq">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">60</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxs-file-json skills__icon' style='color:#f84079'  ></i>
+                                        <span class="skills__name">AJAX & JSON</span>
+                                    </div>
+                                    <div class="skills__bar skills__ajjs">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">50</span>%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-angular skills__icon' style="color: #f63353;"></i>
+                                        <span class="skills__name">Angular</span>
+                                    </div>
+                                    <div class="skills__bar skills__ng">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"><span class="counter">70</span>%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                  
+                    
+                </div>
+            </section>
+
+            <!-- ======= Download Resume ========= -->
+            <section class="resume section">
+                <div class="resume__container bd-grid">
+                    <a class="button" href="./assets/doc/Adityanarayan Tiwari.pdf" download>
+                       <span>
+                           <i class='bx bxs-cloud-download skills__icon' style='color:#f3f2f1'  ></i>
+                    </span>  
+                       <span>
+                        DOWNLOAD RESUME
+                       </span> 
+                    </a>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://iamadityanarayan.github.io/Ecommerce-Website/" target="_blank">
+                            <img src="assets/img/work1.jpg" alt="">
+                            <span class="work__title">Ecommerce-Website</span>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://iamadityanarayan.github.io/Hotel-Booking-Website/" target="_blank">
+                            <img src="assets/img/work2.jpg" alt="">
+                            <span class="work__title">Hotel-Booking-Website</span>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://iamadityanarayan.github.io/XcelPro/" target="_blank">
+                            <img src="assets/img/work3.jpg" alt="">
+                            <span class="work__title">XcelPro</span>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://iamadityanarayan.github.io/Flex-Image-Gallery/" target="_blank">
+                            <img src="assets/img/work4.jpg" alt="">
+                            <span class="work__title">Flex-Image-Gallery</span>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://iamadityanarayan.github.io/Cardbox/" target="_blank">
+                            <img src="assets/img/work5.jpg" alt="">
+                            <span class="work__title">Cardbox</span>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://iamadityanarayan.github.io/Custom-Scroll-Bar/" target="_blank">
+                            <img src="assets/img/work6.jpg" alt="">
+                            <span class="work__title">Custom-Scroll-Bar</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title contact__title">Contact</h2>
+                <div class="contact__map bd-grid">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7612.663470454931!2d78.37736912099386!3d17.443829352179076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93de30ba0c8b%3A0x1446a005319b2596!2zMTfCsDI2JzQ2LjIiTiA3OMKwMjInNTAuNiJF!5e0!3m2!1sen!2sin!4v1602244486011!5m2!1sen!2sin" 
+                     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="contact__container bd-grid">
+                   <p class="contact__description">You can connect with me on any of the following platforms below:</p>
+                </div>
+                <div class="contact__social">
+                    <a href="https://www.linkedin.com/in/tiwari-adityanarayan-a70f" target="_blank" class="contact__icon"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/iamadityanarayan" target="_blank" class="contact__icon"><i class='bx bxl-github' ></i></a>
+                    <a href="mailto:adityant88@gmail.com" target="_blank" class="contact__icon"><i class='bx bx-mail-send' ></i></a>
+                    <a href="https://www.instagram.com/adityanarayan.t17/" target="_blank" class="contact__icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="tel:9425953556" target="_blank" class="contact__icon"><i class='bx bxs-phone-call'></i></a>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__container">
+                <p>&#169; 2020 copyright all right reserved</p>
+            </div>
+        </footer>
+        
+        <!-- ======= Jquery Cdn ========= -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+        <!-- ========== waypoints cdn ========== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+        <!-- ========== Counter-Up cdn ============= -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+         
+        <!-- ======== FONT AWESOME ===== -->
+        <script src="https://kit.fontawesome.com/f56bd06f27.js" crossorigin="anonymous"></script>
+
+        <!-- ======== Counter Up Plugin ======== -->
+        <script src="./assets/js/jquery.counterup.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>   
+    </body>
+</html>
